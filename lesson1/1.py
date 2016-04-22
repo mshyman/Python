@@ -6,5 +6,12 @@ e = 11
 f = 3
 g = 0.002
 h = 11
-result= ((1+(2*a))/3)+((4*(b+c)*(5-d-e))/f)-(6*((7/g)+h)**2)
+
+first=(1+(2*a))/3
+print(first)
+second=(4*(b+c)*(5-d-e))/f
+print(second)
+three=6*((7/g)+h)**2
+print(three)
+result= first + second - three
 print(result)
